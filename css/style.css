@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    flex-direction: row;
+}
+div{
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+input,label{
+    margin: 5px;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+table, caption, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    background: grey;
+    padding: 10px;
+}
+tr, th, td{
+    padding: 3px 5px;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background: lightgrey;
+}
